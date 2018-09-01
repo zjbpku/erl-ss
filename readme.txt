@@ -1,7 +1,7 @@
 link to: https://github.com/leontius/shadowsocks_erlite3
 link to: https://github.com/ld0891/ubnt-shadowsocks-libev
 
-°²×°(ex: goole search below files, erl: install *mips.deb files )
+å®‰è£…(ex: goole search below files, erl: install *mips.deb files )
 sudo dpkg -i apg_2.2.3.dfsg.1-2_mipsel.deb
 sudo dpkg -i pwgen_2.07-1_mipsel.deb
 sudo dpkg -i libc6_2.19-18+deb8u7_mipsel.deb
@@ -12,34 +12,19 @@ sudo dpkg -i libsodium18_1.0.11-1-bpo8+1_mipsel.deb
 sudo dpkg -i libudns0_0.4-1_mipsel.deb
 sudo dpkg -i shadowsocks-libev_3.0.5-1_mipsel.deb
 
-°²×°: 1.ÏÂÔØshadowsocks_erlite3-xxxx.zip²¢½âÑ¹
-2.ÓÃwinscp°Ñ½âÑ¹µÄËùÓÐÎÄ¼þcopyµ½/tmpÄ¿Â¼
-3.Á¬½ÓÂ·ÓÉCLIÃüÁî½çÃæ²¢µÇÂ½£¬È»ºóÖ´ÐÐ:
+
+
+å®‰è£…:
+0.ä¸‹è½½åŽ erl ä¸Šå¯ä»¥ç›´æŽ¥ç”¨install_dpkg.shå®‰è£…ï¼›exä¸Šéœ€ä¸‹è½½ *mipsel.debæ–‡ä»¶
+1.ä¸‹è½½shadowsocks_erlite3-xxxx.zipå¹¶è§£åŽ‹  ä»Žè¿™https://github.com/ld0891/ubnt-shadowsocks-libev releaseä¸‹è½½æœ€æ–°ç‰ˆæœ¬
+2.ç”¨winscpæŠŠè§£åŽ‹çš„æ‰€æœ‰æ–‡ä»¶copyåˆ°/tmpç›®å½•
+3.è¿žæŽ¥è·¯ç”±CLIå‘½ä»¤ç•Œé¢å¹¶ç™»é™†ï¼Œç„¶åŽæ‰§è¡Œ:
 cd /tmp
 sudo bash install.sh
-4.¸ù¾ÝÌáÊ¾ÊäÈëshadowsocksÅäÖÃÐÅÏ¢£¬Ò»°ãÖ»ÐèÒªÊäÈë·þÎñÆ÷µØÖ·¡¢¶Ë¿Ú¡¢ÃÜÂë£¬ÆäËüÑ¡Ïî¿ÉÒÔÖ±½Ó»Ø³µÊ¹ÓÃÄ¬ÈÏÑ¡Ïî¡£
-
-×¢Òâ: 1.¹úÄÚÍâÁ÷Á¿×Ô¶¯·ÖÁ÷£¬Í¨¹ýipset¶Ô¹úÄÚIP½øÐÐ°×Ãûµ¥£¬¹úÄÚIP²»»á·­Ç½·ÃÎÊ£¬Ö»ÓÐ¹úÍâÁ÷Á¿»á×ßshadowsocksÍ¨µÀ·­Ç½
-2.Ö»ÄÜ¶ÔTCPÁ÷Á¿·­Ç½
-3.¹úÍâÍøÕ¾DNS¾­shadowsocks·þÎñÆ÷ÖÐ×ªÊ¹ÓÃTCP·ÃÎÊ8.8.8.8£¬·ÀÖ¹ÎÛÈ¾£¬¹úÄÚÓòÃûÊ¹ÓÃ¹úÄÚDNS½âÎö£¬²»»áÓ°ÏìCDN·ÃÎÊ
-4.1080¶Ë¿Ú¿ÉÒÔ×÷Îªsocks5·­Ç½´úÀíÊ¹ÓÃ
-5.ÎÄ¼þ´æ·ÅÔÚ/configÄ¿Â¼ÊÇÒòÎªÕâ¸öÄ¿Â¼±¸·ÝÅäÖÃµÄÊ±ºò»á±»Ò»Æð±¸·Ý£¬²¢ÇÒÏµÍ³Éý¼¶Ò²²»»áÉ¾³ý
-6.shadowsocks-libev°æ±¾:v3.1.0, chinadns°æ±¾:v1.3.2(ÐÞ¸Ä°æ)£¬pdnsd°æ±¾:v1.2.9
-7.EdgeRouter X EdgeOS v1.8.5,v1.9.0²âÊÔÍ¨¹ý
-8.Èç¹ûÏëÔÝÍ£shadowsocks£¬ÔËÐÐsudo /etc/init.d/shadowsocks stop
-9.ÖØÐÂÆô¶¯¾ÍÔËÐÐsudo /etc/init.d/shadowsocks start
-10.ÔËÐÐsudo crontab -e£¬²¢ÔÚÎÄ¼þÄ©Î²Ìí¼ÓÒÔÏÂÄÚÈÝ£¬¾Í¿ÉÒÔÊµÏÖÃ¿¸ô5·ÖÖÓ¼ì²âss×´Ì¬£¬Èç¹û²»ÄÜ·­Ç½¾Í×Ô¶¯ÖØÆô·þÎñ£º
+4.æ ¹æ®æç¤ºè¾“å…¥shadowsocksé…ç½®ä¿¡æ¯ï¼Œä¸€èˆ¬åªéœ€è¦è¾“å…¥æœåŠ¡å™¨åœ°å€ã€ç«¯å£ã€å¯†ç ï¼Œå…¶å®ƒé€‰é¡¹å¯ä»¥ç›´æŽ¥å›žè½¦ä½¿ç”¨é»˜è®¤é€‰é¡¹ã€‚
+5.å¦‚æžœæƒ³æš‚åœshadowsocksï¼Œè¿è¡Œsudo /etc/init.d/shadowsocks stop
+6.é‡æ–°å¯åŠ¨å°±è¿è¡Œsudo /etc/init.d/shadowsocks start
+7.è¿è¡Œsudo crontab -eï¼Œå¹¶åœ¨æ–‡ä»¶æœ«å°¾æ·»åŠ ä»¥ä¸‹å†…å®¹ï¼Œå°±å¯ä»¥å®žçŽ°æ¯éš”5åˆ†é’Ÿæ£€æµ‹ssçŠ¶æ€ï¼Œå¦‚æžœä¸èƒ½ç¿»å¢™å°±è‡ªåŠ¨é‡å¯æœåŠ¡ï¼š
 */5 * * * * sh /config/shadowsocks/bin/ss-monitor.sh
 
-PTÏÂÔØÓÃ»§Çë×¢Òâ£¬Èç¹ûÄãÓÐ¶ÀÁ¢µÄÏÂÔØ»ú£¬¿ÉÒÔÉèÖÃÈÃÏÂÔØ»ú²»×ßSS¡£¾ßÌå²Ù×÷ÈçÏÂ£º
-ssÆô¶¯½Å±¾/etc/init.d/shadowsocksÀïÃæÓÐÏÂÃæÒ»ÐÐ:
-#BYPASS_RANGE=192.168.123.0/24
-È¥µô×¢ÊÍ(É¾µô#ºÅ)ÖØÆô·þÎñ¾Í¿ÉÒÔÉúÐ§£¬È»ºó192.168.123.0/24ÕâÕû¸öÍø¶Î¶¼²»»á×ßssÍ¨µÀÁË£¬Í¬Ê±Ò²ÎÞ·¨·­Ç½ÁË£¬192.168.123.0/24Ò²¿ÉÒÔ»»³Éµ¥¶ÀIP»òÕßÆäËüÍø¶Î¡£
-
-DNS½âÎö¹ý³Ì
-chinadns ±ØÐëÅäÖÃÖÁÉÙÒ»¸ö¹úÄÚDNS£¬Ò»¸ö¹úÍâDNS
-dnsmasq -> chinadns (¹úÍâIP)-> pdnsd -> ss-server -> dns-server:ok
-(¹úÄÚIP)-> 114.114.114.114:ok
-
-chinadns×÷ÕßºÜ¾ÃÃ»ÓÐ¸üÐÂ¹ýÁË£¬µ«ÊÇÓÐ¼¸¸öbug£¬»áµ¼ÖÂÓÐÐ©Í¬Ê±ÓÐ¹úÄÚ¹úÍâCDNµÄÓòÃû½âÎö³ö¹úÍâµÄIP£¬±¾·½°¸Ê¹ÓÃµÄchinadnsÎÒÐÞ¸´ÁËÕâ¸öbug²¢ÓÅ»¯ÁË²¿·ÖÇé¿öÏÂµÄ½âÎöËÙ¶È¡£
-ss·­Ç½·½°¸Ä¿Ç°×îÈÝÒ×³öÎÊÌâµÄ¾ÍÊÇDNS·ÀÎÛÈ¾£¬×î½üµÄ¼¸´Î¸üÐÂ¼¸ºõ¶¼ÊÇÕë¶ÔDNS£¬µ½Ä¿Ç°°æ±¾ÖÕÓÚÈÃÎÒ±È½ÏÂúÒâÁË¡£
+å®Œç¾Ž
